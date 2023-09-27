@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin:0;
+}
+.header{
+    background-color: wheat;
+    width: auto;
+    height: 60px;
+}
+.left-corner{
+    background-color: rgb(255, 245, 245);
+    width: 800px;
+    height: 500px;
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.left-corner-img{
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 50vh;
+    height: 50vh;
+    background-image:url(../img/flaticonstudying.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.right-corner{
+    width: 800px;
+    background-color: blue;
+}
+.both-corners{
+    display:flex;
+}
