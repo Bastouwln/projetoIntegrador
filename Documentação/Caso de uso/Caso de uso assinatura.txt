@@ -1,0 +1,18 @@
+24/10/2023
+
+Nome: assinatura
+
+Cenário principal:
+Incluir caso de uso "Assinaturas". O usuário entra no site clicla em assunaturas, e possuí o acesso a três assinaturas, todas, com um preço diferente, o de graça, que o usuário já possuí, outra, para professores que não terá anuncios, e por fim, para empresas, que obterão respostas mais rápidas, o usuário poderá comprar os planos através de cartão.
+
+Cenário alternativo 1:
+Erro na senha ou no cartão - Se, depois de escolher um plano, der um erro na senha ou no cartão na hora de pagamento, ele voltará para a aba de assinatura novamente, com uma tela de erro.
+
+Cenário alternativo 2:
+Sobrecarregamento - se haver muitos usuários simultâneos com uma grande carga de pacote de dados, as assinaturas serão desabilitadas automaticamente e temporariamente.
+
+Cenário alternativo 3:
+Erro de login - será necessário colocar a senha e login caso quando o usuário colocar essas informações, e elas não coincidirem com as originais, ele será jogado novamente para as telas de assinatura, com outro erro
+
+Cenário alternativo 4:
+500 bad request - em caso de qualquer erro desconhecido externo ou interno, o usuário será mandado, para a tela principal de suporte

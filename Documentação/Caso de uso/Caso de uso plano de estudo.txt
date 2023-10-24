@@ -1,0 +1,18 @@
+24/10/2023
+
+Nome: Plano de estudo
+
+Cenário principal:
+O usuário entra na página inicial, clica para criar um plano, escolhe se deseka upload ou criar um do zero. Após criado, o usuário poderá decidir, se o plano será publicado de forma pública ou privada
+
+Cenário alternativo 1:
+Quando o plano de estudo é selecionado, é necessário que todos os componentes sejam salvos, após o usuário sair ou deslogar do site.
+
+Cenário alternativo 2:
+Se a pontuação do plano, exceder um limite já extrapolado pelo criador, o usuário será mandado para a tela inicial com um erro.
+
+Cenário alternativo 3:
+Caso o salvamento automático falhe, será necessário mostrar um erro ao usuário e, nos casos de muita informação deletada, recomendar suporte ao usuário.
+
+Cenário alternativo 4:
+Se algum erro interno ou externo acontecer ao criar um plano, enviar um bad request 500 e uma tela de erro ao usuário.
