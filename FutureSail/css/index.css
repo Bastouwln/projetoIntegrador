@@ -5,15 +5,16 @@
 body{
     overflow-y: hidden;
     overflow-x: hidden;
+    background-color: rgba(171, 171, 171, 0.493);
 }
 .header{
-    background-color: rgb(68, 0, 0);
+    background-color: rgb(78, 78, 78);
     width: auto;
     height: 60px;
 }
 .left-corner{
-    background-color: rgba(0, 139, 74, 0.493);
-    width: 800px;
+    background-color: rgba(171, 171, 171, 0.493);
+    width: 830px;
     height: 500px;
     color:white;
     text-align: center;
@@ -30,26 +31,21 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 .right-corner{
     width: 800px;
-    background-color: rgb(1, 1, 103);
+    background-color: rgb(152, 152, 152);
 }
 .both-corners{
     display:flex;
 }
-
-
-
 .left-corner1{
     position: relative;
     width: 100px;
     height: 800px;
-    background-color: rgb(0, 99, 18);
+    background-color: rgb(156, 156, 156);
 }
 .headerText{
-    color:rgb(48, 0, 0);
+    color:rgb(0, 0, 0);
 }
 .lista-left{
     align-items: center;
@@ -63,11 +59,56 @@ body{
 }
 .right-corner{
     display:grid;
-    padding: 10px;
+    padding: 30px;
     grid-template-columns: auto auto auto;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 70px;
 }
 .right-grid-item{
-    background-color: wheat;
-    width: 300px;
-    height: 800px;
+    margin-left: 150px;
+    background-color: rgb(159, 0, 0);
+    width: 100px;
+    height: 500px;
+}
+.block{
+    position:fixed;
+    background-color: rgb(0, 174, 64);
+    width: 100px;
+    height: 300px;
+}
+.block1{
+    position:fixed;
+    background-color: rgb(0, 174, 64);
+    width: 100px;
+    height: 200px;
+}
+.block2{
+    position: fixed;
+    background-color: rgb(0, 174, 64);
+    width: 100px;
+    height: 100px;
+}
+.right-1{
+    align-items: center;
+    text-align: center;
+    display:flex;
+    position: fixed;
+    margin-top: -700px;
+    margin-left: 20%;
+}
+.porcentage1{
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.porcentage2{
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+.porcentage3{
+    position: relative;
+    align-items: center;
+    text-align: center;
 }
