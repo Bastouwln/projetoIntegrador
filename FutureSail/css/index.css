@@ -1,16 +1,25 @@
 *{
     padding:0;
     margin:0;
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 body{
     overflow-y: hidden;
     overflow-x: hidden;
     background-color: rgba(171, 171, 171, 0.493);
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .header{
     background-color: rgb(78, 78, 78);
     width: auto;
     height: 60px;
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .left-corner{
     background-color: rgba(171, 171, 171, 0.493);
@@ -20,6 +29,9 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .left-corner-img{
     margin-top: 5%;
@@ -30,32 +42,53 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .right-corner{
     width: 800px;
     background-color: rgb(152, 152, 152);
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .both-corners{
     display:flex;
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .left-corner1{
     position: relative;
     width: 100px;
     height: 800px;
     background-color: rgb(156, 156, 156);
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .headerText{
     color:rgb(0, 0, 0);
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .lista-left{
     align-items: center;
     text-align: center;
     list-style: none;
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .lista-left li{
     font-size: 20px;
     padding: 20px;
     display:flex;
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .right-corner{
     display:grid;
@@ -64,30 +97,41 @@ body{
     align-items: center;
     text-align: center;
     margin-bottom: 70px;
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
 }
 .right-grid-item{
     margin-left: 150px;
     background-color: rgb(159, 0, 0);
     width: 100px;
     height: 500px;
+    transition-delay: 0.5;
+    transition:0.4;
 }
 .block{
     position:fixed;
     background-color: rgb(0, 174, 64);
     width: 100px;
     height: 300px;
+    transition-delay: 0.5;
+    transition:0.4;
 }
 .block1{
     position:fixed;
     background-color: rgb(0, 174, 64);
     width: 100px;
     height: 200px;
+    transition-delay: 0.5;
+    transition:0.4;
 }
 .block2{
     position: fixed;
     background-color: rgb(0, 174, 64);
     width: 100px;
     height: 100px;
+    transition-delay: 0.5;
+    transition:0.4;
 }
 .right-1{
     align-items: center;
@@ -96,19 +140,98 @@ body{
     position: fixed;
     margin-top: -700px;
     margin-left: 20%;
+    transition-delay: 0.5;
+    transition:0.4;
 }
 .porcentage1{
+    visibility: hidden;
+    text-decoration: none;
     position: relative;
     align-items: center;
     text-align: center;
+    transition-delay: 0.5;
+    transition:0.4;
 }
 .porcentage2{
+    visibility: hidden;
+    text-decoration: none;
     position: relative;
     align-items: center;
     text-align: center;
+    transition-delay: 0.5;
+    transition:0.4;
 }
 .porcentage3{
+    visibility: hidden;
+    text-decoration: none;
     position: relative;
     align-items: center;
     text-align: center;
+    transition-delay: 0.5;
+    transition:0.4;
+    transition-duration: 1.0s;
+}
+.divlistaleft{
+    animation-duration: 1.0s;
+    transition:0.4;
+    transition-delay: 0.5;
+    transition-duration: 1.0s;
+    padding: 0px;
+}
+.imgdivleft{
+    width: 20px;
+    height: 20px;
+    transition-duration: 1.0s;
+}
+.divlistaleft:hover{
+    animation-duration: 1.0s;
+    animation-name: a;
+    padding: 15px 15px;
+    font-size: 35px;
+    background-color: rgb(255, 255, 255);
+    .imgdivleft{
+        width: 50px;
+        height: 50px;
+    }
+}
+.right-corner:hover{
+    animation-duration: 1.0s;
+    padding: 100px;
+}
+.right-grid:hover{
+    animation: 1.0s;
+    margin-right: -100px;
+    margin-top:-100px
+}
+.right-grid-item:hover{
+    .porcentage1{
+        visibility: visible;
+        padding: 30px;
+    }
+    .porcentage2{
+        visibility: visible;
+        padding: 30px;
+    }
+    .porcentage3{
+        visibility: visible;
+        padding: 30px;
+    }
+    .block{
+        margin-left:-10px;
+        padding: 10px;
+    }
+    .block1{
+        margin-left:-10px;
+        padding: 10px;
+    }
+    .block2{
+        margin-left: -10px;
+        padding: 10px;
+    }
+}
+.both-corners:hover{
+    padding: 2px;
+}
+.left-corner:hover{
+    padding: 10px;
 }
