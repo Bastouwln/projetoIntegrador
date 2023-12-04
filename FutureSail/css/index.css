@@ -138,7 +138,7 @@ body{
     text-align: center;
     display:flex;
     position: fixed;
-    margin-top: -700px;
+    margin-top: -600px;
     margin-left: 20%;
     transition-delay: 0.5;
     transition:0.4;
@@ -201,7 +201,10 @@ body{
 .right-grid:hover{
     animation: 1.0s;
     margin-right: -100px;
-    margin-top:-100px
+    margin-top:-225px
+}
+.right-1:hover{
+    margin-top:-700px;
 }
 .right-grid-item:hover{
     .porcentage1{
@@ -228,9 +231,6 @@ body{
         margin-left: -10px;
         padding: 10px;
     }
-}
-.both-corners:hover{
-    padding: 2px;
 }
 .left-corner:hover{
     padding: 10px;
